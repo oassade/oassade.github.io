@@ -1,0 +1,131 @@
+/* media queries */
+@font-face {
+    font-family: "Apron";
+    src: url(../fonts/Apron-Bold.woff);
+  }
+@media screen and (max-width: 475px) {
+    .menu-selected {
+        font-size: 2rem;
+    }
+    .menu.active ul li {
+        font-size: 1.5rem ;
+    }
+    .menu ul li:hover{
+        font-size: 2rem;
+    }
+}
+@media screen and (min-width: 476px) and (max-width: 800px){
+    .menu-selected {
+        font-size: 3rem;
+    } 
+    .menu.active ul li {
+      font-size: 2rem ;  
+    }
+    .menu ul li:hover{
+        font-size: 3rem;
+    }
+}
+@media screen and (min-width: 801px){
+    .menu-selected {
+        font-size: 3rem;
+    }
+    .menu.active ul li {
+       font-size:  2rem; 
+    }
+    .menu ul li:hover{
+        font-size: 2.2rem;
+    }
+}
+
+
+/* Sticky nav */
+.navbar-brand img{
+    width: 150px;
+}
+.navbar {
+    z-index: 1;
+}
+
+
+/* Main menu */
+.navbar-brand img{
+    width: 150px;
+}
+.menu {
+    position: fixed;
+    right: 0;
+    z-index: 2000 !important;
+    height: 100vh;
+    width: 0vw;
+    background-color: #3a1e3af3;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+    
+}
+#openm{
+  z-index: 1000;
+  width: 30px;
+}
+.menu a{
+  color: white;
+  font-weight: 200;
+    font-family: Apron !important;
+}
+.menu.active {
+    width: 100vw !important;
+    z-index: 105;
+}
+
+.menu p {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    width: 150px;
+    margin: 5px 15px;
+}
+
+.menu #closem{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    right: 0;
+    margin: 20px 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+.menu ul {
+    padding-top: 15vh;
+    padding-bottom: 15vh;
+    padding-left: 5vw;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu.active ul li {
+    cursor: pointer;
+    color: white;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-out;
+    -moz-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
+    transition: all 0.2s ease-out;
+}
+
+.menu ul li:hover {
+    color: var(--cyan-text);
+}
+
+.menu-selected {
+    color: #98A6D4 !important;
+}
+
+.activem {
+    opacity: 1 !important;
+}

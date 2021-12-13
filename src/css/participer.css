@@ -1,0 +1,157 @@
+.carousel p, .carousel li {
+    font-size: 14px !important;
+    text-indent: 0px;
+}
+.participer-carousel .content{
+    height: 100%;
+    width:100%;
+}
+.btn-p1{
+    background-color: #D5896B;
+    color: white;
+    border: 0px;
+  }
+  .btn-p2{
+    background-color: #BC5873;
+    color: white;
+    border: 0px;
+  }
+  .btn-p3{
+    background-color: #A8CA59;
+    color: white;
+    border: 0px;
+  }
+.participer-carousel .content > .row{
+    height: 100%;
+    width:100%;
+    margin: 0;
+}
+.left-content{
+    position:relative;
+}
+.left-content .p1{
+    text-align: center;
+    color: #D5896B;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+#p1-mob{
+    margin: 20px 5px;
+    text-align: center;
+    color: #D5896B;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+#p2-mob{
+    margin: 20px 5px;
+    text-align: center;
+    color: #BC5873;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+#p3-mob{
+    margin: 20px 5px;
+    text-align: center;
+    color: #A8CA59;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+.left-content .p2{
+    text-align: center;
+    color: #BC5873;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+.left-content .p3{
+    text-align: center;
+    color: #A8CA59;
+    font-family: "Gotham";
+    font-weight: bold;
+
+}
+.right-content{
+    padding-right: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Gotham";
+}
+.right-content img{
+    width: 40vw;
+}
+.right-content ul{
+    list-style: none;
+}
+.right-content ul li {
+    padding-left: 2em;
+    text-indent: -1em;
+}
+.right-content div{
+    margin-left: 20px;
+}
+.right-content div p:before {
+   
+    content: "\2022";
+    position: absolute;
+    left: 0px;
+    color: #d5896b;
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: 1em;
+    
+}
+.left-content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vid-container {
+    position: relative;
+    width: 40vw;
+    height: 40vw;
+}
+.vid-container video {
+    width: 40vw;
+    height: 40vw;
+    object-fit: cover;
+    padding: 15px;
+}
+.mask{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.left-content-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.left-comma{
+    width: 20px !important;
+    margin-right: 10px;
+}
+.right-comma{
+    width: 20px !important;
+    margin-left: 10px;
+}
+.right-comma{
+    transform: scaleX(-1);
+    margin-left: 10px;
+}
+
+.align-right{
+    justify-content: flex-end;
+}
+.align-right img{
+    width: 300px;
+}

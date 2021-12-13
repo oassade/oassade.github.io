@@ -1,0 +1,66 @@
+{
+    ".presentation" : {
+        "partners" : "Nos Partenaires",
+        "hero" : "<img class=\"quote p-2\" src=\"../images/icons/quote1.svg\" alt=\"\"> L’initiative de développement du Grand Casablanca par la créativité<img class=\"quote p-2\" src=\"../images/icons/quote2.svg\" alt=\"\">",
+        "text" : "Connectant les jeunes talents au patrimoine riche et multiple de Casablanca, « ATH’ART » est une initiative portée par CasaPatrimoine et par un ensemble d’acteurs économiques, culturels et de la société civile, visant à revaloriser le Patrimoine matériel et immatériel de Casablanca, à travers la créativité et l’art. <br><br> Créée au profit du vivier large de designers, d’artistes, d’architectes de créatifs et de talents qui innovent au quotidien, l’initiative ATHART fait aujourd’hui appel à votre créativité et à votre sens d’entreprenariat pour faire du patrimoine Casablancais une source de développement durable pour tous."
+    },
+    ".participer-1" : {
+        "text" : "Le Patrimoine matériel et immatériel Casablancais conserve un héritage unique, capable de porter des projets de développement socio-économique. <br><br> Inspirez-vous du Patrimoine Casablancais, et imaginez des projets innovants créateurs de richesse culturelle et économique :",
+        "list" : "<p>Promotion du Patrimoine architectural Casablancais.</p> <p>Revalorisation du patrimoine Oral et des arts du spectacle <br>( Ahwach, L’Aïta, le Marsawi, Le style Ghiwan, Tagadda, Lemchaheb, poésie, contes, proverbes…)</p> <p>Réinvention du patrimoine festif et gastronomique.</p> <p>Promotion de l'artisanat traditionnel.</p>",
+        "quote" : "Alors, creusez et trouvez des idées originales <br> de projets culturels et innovants, qui peuvent promouvoir <br> le patrimoine culturel casablancais."
+    },
+    ".participer-2" : {
+        "text" : "Saviez-vous que les premiers plans urbains, qui ont servi pour modèles d’aménagement en Europe durant les années 50ans, ont été créés et expérimentés à Casablanca ? <br> <br> Cette ville qui témoigne de la naissance de l’urbanisme moderne, est un vrai symbole de l’innovation en Mobilité. Le zoning, le plan de déplacement urbain, les grands boulevards, l’aménagement urbain… autant d’innovations dont Casablanca a été un vrai laboratoire à ciel ouvert. <br><br> Aujourd’hui, on appelle les créateurs et les entrepreneurs à améliorer cette mobilité urbaine en proposant des projets qui réinventent les moyens de transports, le mobilier urbain et qui offrent des solutions qui facilitent le déplacement en ville pour tous les citoyens et les visiteurs.",
+        "quote" : "Soyez nombreux à imaginer des projets innovants et partagez-les pour gagner le Prix ATH'ART du Projet Innovant dans la catégorie Mobilité."
+    },
+    ".participer-3" : {
+        "text" : "Casablanca, une ville qui regorge de vraies potentialités naturelles, qui demeurent sous-exploitées. <br><br> Pourtant, la ville de Casablanca fait face à des enjeux environnementaux d’envergure. ATH'ART fait appel aux jeunes talents pour proposer des solutions innovantes et créatives pour sensibiliser, préserver et valoriser ce patrimoine vital pour le bien-être de tous les habitants.",
+        "quote" : "Inspirez-vous de ce Patrimoine si riche, qui peut créer un impact, socio-économique pour notre ville. Proposez des projets pour mettre en valeur cette richesse naturelle et remportez le meilleur prix ATH'ART dans la catégorie environnement."
+    },
+    ".reglement" : {
+        "titre" : "Comment participer ?",
+        "desc" : "Vous êtes créatif, designer, peintre, musiciens, entrepreneur ou même simple citoyen avec pleines d’idées en tête, partagez avec nous vos projets de développement de Patrimoine part la créativité et gagnez...<br><br> <strong>Avant de poster vos idées, veuillez lire et télécharger notre <a href=\"#\">règlement du concours</a> </strong>",
+        "phase-1" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase1.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">du XX Mo au  Mois 2020</span> <br> Envoyez vos propositions de Projets créatifs sur la platef e de participation :<a href=\"#\"> www. art.ma/candidature</a> </p>",
+        "phase-2" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase2.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">du XX Mois au XX Mois 2020</span> <br> Un 1er tri sera fait par l’équipe projet technique pour ne retenir que les propositions répondant à la charte de l’initiative détaillée dans le règlement du concours. </p>",
+        "phase-3" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase3.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">du XX Mois au XX Mois 2020</span> <br> Un 2ème tri sera fait par le comité de pilotage du projet pour retenir les 100 plus belles propositions. Cela peut être moins ou plus selon la qualité des rendus. </p>",
+        "phase-4" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase4.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">du XX Mois au XX Mois 2020</span> <br> La sélection par un jury final des 3 meilleures créations par catégorie et des 3 meilleures œuvres toutes catégories confondues (ce chiffre peut être revue en fonction de la qualité des rendus). </p>",
+        "cta" : "<a href=\"./participer.html\" class=\"py-2 px-5 rounded-pill align-self-end btn-1\">Sélectionnez votre catégorie</a>"
+    },
+    ".jury" : {
+        "title" : "JURY",
+        "hero" : "<img class=\"quote p-2\" src=\"../images/icons/quote1.svg\" alt=\"\">Le jury est une instance souveraine qui ne doit comporter aucun conflit d’intérêt, ni être soumis à une quelconque influence. <img class=\"quote p-2\" src=\"../images/icons/quote2.svg\" alt=\"\">",
+        "text" : "<li>• Le jury a pour mission de sélectionner les finalistes et de désigner les lauréats selon les critères de sélection définis à l’article.</li><br><li>• Le jury examine les œuvres et les travaux des candidats de manière anonyme en se fondant exclusivement sur les critères indiqués dans le règlement du concours. L’anonymat est de mise jusqu’à la proclamation finale des résultats.</li><br><li>• Chaque membre du jury notera les idées de projets individuellement, sans concertation avec les autres membres du jury, par la suite une sélection se fera  par le jury final des 3 meilleures idées de projets par catégorie et d’autres 3 meilleurs toutes catégories confondues.</li>",
+        "critere-title" : "LES CRITERES DE SELECTION",
+        "critere-desc" : "Le jury a été sélectionné en réponse à 5 critères : <br><br> <span style=\"color: #98A6D4;\" class=\"h2\">1.</span> Expertise solide dans leurs domaines de compétences.<br> <span style=\"color: #98A6D4;\" class=\"h2\">2.</span> Notoriété <br> <span style=\"color: #98A6D4;\" class=\"h2\">3.</span> Crédibilité <br> <span style=\"color: #98A6D4;\" class=\"h2\">4.</span> Expérience internationale <br> <span style=\"color: #98A6D4;\" class=\"h2\">5.</span> Approche entrepreneuriale dans l’exercice de leurs activités."
+    },
+    ".comite" : {
+        "title" : "COMITE SCIENTIFIQUE",
+        "hero" : "<img class=\"quote p-2\" src=\"../images/icons/quote1.svg\" alt=\"\"> Le comité scientifique examine toutes les candidatures reçues et les filtre, rejetant celles non conformes et validant celles qui répondent aux exigences du concours, le jury intervient à l’étape suivante pour notation et évaluation.<img class=\"quote p-2\" src=\"../images/icons/quote2.svg\" alt=\"\">",
+        "com-1" :"<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/youssef.png\" alt=\"\"> <p class=\"\"> <span class=\"comite-name\">M. YOUSSEF JAJILI</span> <br> </p> <ul> <li>Journaliste / Ecrivain</li> <li>Expert en Communication</li> <li>Expérience dans les Médias</li> </ul>",
+        "com-2" : "",
+        "com-3" : ""
+    },
+    ".jury-members" : {
+        "j1" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/lkhmari.png\" alt=\"\"><p class=\"\"> <span class=\"vert\">NOUR-EDDINE LAKHMARI</span> <br> </p> <ul> <li>• Cinéaste, réalisateur et Producteur</li> <li>• Norvégo-marocain résidant à Casablanca</li> <li>• Expérience Audiovisuelle importante</li> <li>• Connu pour ses films réalisés à Casablanca</li> </ul>",
+        "j2" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/karim.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">Dr. KARIM ADYEL</span> <br> </p> <ul><li>• Avocat</li><li>• Docteur d’Etat en Droit international</li><li>• Arbitre au Tribunal Arbitral du Sport (TAS)</li></ul>",
+        "j3" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/derhem.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">MOHAMED DERHEM</span> <br> </p> <ul> <li>• ARTISTE</li> <li>• Notoriété et Crédibilité</li> <li>• Connaissance de Casablanca et son Patrimoine Oral et Culturel</li> <li>• Entrepreneur</li> </ul>",
+        "j4" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/lahlou.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">HICHAM LAHLOU</span> <br> </p> <ul> <li>• DESIGNER • Pluridisciplinaire</li> <li>• Célèbre et crédible • Expérience internationale et entrepreneur</li> </ul>",
+        "j5" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/abid.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">SAAD ABID</span> <br> </p> <ul> <li>• Social entrepreneur</li> <li>• Grande notoriété et crédibilité dans les questions environnementales</li> <li>• Présence forte sur le digital</li> </ul>",
+        "j6" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/nezha.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">NEZHA BELKADY</span> <br> </p> <ul> <li>• Entrepreneure Culturelle</li> <li>• CO-FONDATRICE DE STUDIO DES ARTS VIVANTS</li> </ul>",
+        "j7" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/mouna.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">MOUNA HACHIM</span> <br> </p> <ul> <li>• Auteure et Ecrivaine</li> <li>•  Grande culture et riche production éditoriale</li> <li>• Crédibilité • Patrimoine</li> </ul>",
+        "j8" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/oudaha.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">MOHAMED OUDAHA</span> <br> </p> <ul> <li>• Créatif / Publicitaire</li> <li>• Lauréat du lion d’or du Festival de CANNES</li> <li>• Le créatif Marocain le plus primé dans le monde </li> </ul>",
+        "j9" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/jall.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">MOHAMED JALL</span> <br> </p> <ul> <li>• Architect et designer de l’opéra du sultanat Oman</li> <li>• Pluridisciplinaire</li> <li>• Expérience internationale</li> </ul>",
+        "j10" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/mazned.png\" alt=\"\"> <p class=\"\"> <span class=\"vert text-uppercase\">Brahim El Mazned</span> <br> </p> <ul> <li>• Entrepreneur Culturel</li> <li>• Fondateur de Visa For Music</li> <li>• Directeur du Festival Timitar</li> <li>• Expert auprès de l’UNESCO</li> </ul>",
+        "j11" : "<img class=\"mb-3 rounded-circle\" height=\"120px\" width=\"120px\" src=\"../images/comite/adnane.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">AZIZ DADANE</span> <br> </p> <ul> <li>• Chef d’entreprise • Acteur Socio-Culturel</li> <li>• Crédibilité • Grande Culture</li> <li>• Expert en nouvelle technologies</li> </ul>",
+        "j12" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/hind.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">HIND LAIDI</span> <br> </p> <ul> <li>• Fondatrice et Présidente De l’association JOUD</li> <li>• Associatif • Crédibilité</li> <li>• Experience internationale</li> </ul>",
+        "j13" : "<div style=\"width: 120px; height: 120px;\" class=\"rounded-circle bg-secondary mb-3 mx-auto\"></div> <p class=\"\"> <span class=\"vert  text-uppercase\">Yassine Gamal </span> <br> </p> <ul> <li>• Membre du mouvement OTED, initiative dédiée au développement et l’innovation territoriale</li> <li>• Expert international en Developpement de Marché et en Management de l’innovation</li> </ul>",
+        "cta" : "Comment participer"
+    },
+    ".prixx" : {
+        "p1" : "",
+        "p2" : "",
+        "p3" : "",
+        "p4" : "",
+        "p5" : "" 
+    }
+}

@@ -1,0 +1,66 @@
+{
+    ".presentation" : {
+        "partners" : "",
+        "hero" : "",
+        "text" : ""
+    },
+    ".participer-1" : {
+        "text" : "",
+        "quote" : ""
+    },
+    ".participer-2" : {
+        "text" : "",
+        "quote" : ""
+    },
+    ".participer-3" : {
+        "text" : "",
+        "quote" : ""
+    },
+    ".reglement" : {
+        "titre" : "",
+        "desc" : "",
+        "phase-1" : "",
+        "phase-2" : "",
+        "phase-3" : "",
+        "phase-4" : "",
+        "cta" : ""
+    },
+    ".jury" : {
+        "title" : "",
+        "hero" : "",
+        "text" : "",
+        "critere-title" : "",
+        "critere-desc" : "",
+        "critere-list" : ""
+    },
+    ".comite" : {
+        "title" : "",
+        "hero" : "",
+        "com-1" : "",
+        "com-2" : "",
+        "com-3" : ""
+    },
+    ".jury-members" : {
+        "j1" : "",
+        "j2" : "",
+        "j3" : "",
+        "j4" : "",
+        "j5" : "",
+        "j6" : "",
+        "j7" : "",
+        "j8" : "",
+        "j9" : "",
+        "j10" : "",
+        "j11" : "",
+        "j12" : "",
+        "j13" : "",
+        "cta" : ""
+    },
+    ".prixx" : {
+        "p1" : "",
+        "p2" : "",
+        "p3" : "",
+        "p4" : "",
+        "p5" : "" 
+    }
+}

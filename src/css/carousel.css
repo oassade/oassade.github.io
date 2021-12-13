@@ -1,0 +1,33 @@
+/* external css: flickity.css, fullscreen.css */
+
+.slider-container{
+    height:100%;
+    width: 100%;
+    padding:0px !important;
+}
+.carousel {
+  background: #fafafa00;
+}
+
+.carousel-cell {
+  width: 100%;
+  min-height: 100vh;
+  margin-right: 10px;
+  background: transparent;
+  border-radius: 5px;
+  counter-increment: carousel-cell;
+  margin: 0;
+}
+
+.carousel.is-fullscreen .carousel-cell {
+  height: 100%;
+}
+
+/* cell number */
+.carousel-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
