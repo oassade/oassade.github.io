@@ -24,7 +24,6 @@
         <ul>
             <li><a href="/index.html">Accueil</a></li>
             <li><a href="./presentation.html">Présentation</a></li>
-            <li><a href="./participer.html">PARTICIPER</a></li>
             <li><a href="./reglement.html" class="menu-selected">Réglement du concours</a></li>
             <li><a href="./jury.html">JURY</a></li>
             <li><a href="./prix.html">PRIX</a></li>
@@ -33,6 +32,11 @@
     <nav class="navbar navbar-dark navbar-back p-3 fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img src="../images/logo.png" alt=""></a>
+            <ul class="row">
+                <li class="text-white mx-1" onclick="setLanguage('fr')">FR</li>
+                <li class="text-white mx-1">/</li>
+                <li class="text-white mx-1" onclick="setLanguage('ar')">AR</li>
+            </ul>
             <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent">
                 <img src="../images/icons/openNav.svg" alt="" id="openm">
             </button>
@@ -44,8 +48,8 @@
                 <div class="content p-md-5" style="padding-top: 6rem !important;">
                     <div class="row text-white reglement">
                         <div class="col-md-8 animate__animated animate__bounceInRight animate__delay-1s">
-                            <h1 key="titre">Comment participer ?</h1>
-                            <p key="desc">Vous êtes créatif, designer, peintre, musiciens, entrepreneur ou même simple citoyen avec
+                            <h1 dir="auto" key="titre">Comment participer ?</h1>
+                            <p dir="auto" key="desc">Vous êtes créatif, designer, peintre, musiciens, entrepreneur ou même simple citoyen avec
                                 pleines d’idées en tête, partagez avec nous vos projets de développement de Patrimoine
                                 part la créativité et gagnez...<br><br>
                                 <strong>Avant de poster vos idées, veuillez lire et télécharger notre <a href="#">règlement du concours</a>
@@ -54,7 +58,7 @@
                         </div>
                     </div>
                     <div class="row text-white reglement">
-                        <div class="col-md-3 reg animate__animated animate__bounceInRight" key="phase-1">
+                        <div class="col-md-3 reg animate__animated animate__bounceInRight" dir="auto" key="phase-1">
                             <img class="mb-3" width="120px" src="../images/SVG/phase1.svg" alt="">
                             <p class="text-start">
                                 <span class="border-bott">du XX Mois au XX Mois 2020</span>
@@ -63,7 +67,7 @@
                                     href="#"> www.athart.ma/candidature</a>
                             </p>
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-2">
+                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" dir="auto" key="phase-2">
                             <img class="mb-3" width="120px" src="../images/SVG/phase2.svg" alt="">
                             <p class="text-start">
                                 <span class="border-bott">du XX Mois au XX Mois 2020</span>
@@ -72,7 +76,7 @@
                                 répondant à la charte de l’initiative détaillée dans le règlement du concours.
                             </p>
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-3">
+                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" dir="auto" key="phase-3">
                             <img class="mb-3" width="120px" src="../images/SVG/phase3.svg" alt="">
                             <p class="text-start">
                                 <span class="border-bott">du XX Mois au XX Mois 2020</span>
@@ -81,7 +85,7 @@
                                 belles propositions. Cela peut être moins ou plus selon la qualité des rendus.
                             </p>
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-4">
+                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" dir="auto" key="phase-4">
                             <img class="mb-3" width="120px" src="../images/SVG/phase4.svg" alt="">
                             <p class="text-start">
                                 <span class="border-bott">du XX Mois au XX Mois 2020</span>
@@ -94,7 +98,7 @@
                     </div>
                     <div class="row reglement">
                         <div class="col-md-8"></div>
-                        <div class="col-md-4 mobile-center" key="cta"><a href="./participer.html" class="py-2 px-5 rounded-pill align-self-end btn-1">Sélectionnez votre catégorie</a></div>
+                        <div class="col-md-4 mobile-center" dir="auto" key="cta"><a href="./participer.html" class="py-2 px-5 rounded-pill align-self-end btn-1">Sélectionnez votre catégorie</a></div>
                     </div>
                     <div class="row position-absolute bottom-0m-3 p-2 border-bott">
                         <div class="col-md-4"><img src="../images/icons/social.svg" alt=""></div>
@@ -103,6 +107,7 @@
             </div>
         </div>
     </div>
+    <script src="../js/jquery-3.5.1.min.js"></script>
     <script src="../js/flickity.pkgd.min.js"></script>
     <script src="../js/main.js"></script>
     <script src="../js/video-background.js"></script>

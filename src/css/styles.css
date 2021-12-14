@@ -2,9 +2,23 @@
 *::-webkit-scrollbar {
   display: none !important;
 }
+/* , body.ar h1, body.ar h2, body.ar h3, body.ar h4, body.ar h5, body.ar h6, body.ar button, body.ar a, body.ar li */
+body.ar *{
+  text-align: right;
+}
+body.fr *{
+  text-align: left;
+}
+.navbar ul.row {
+  width: max-content; width: 80%; display: flex; justify-content: end; align-items: center; margin: 0;
+}
+.navbar ul.row li {
+  cursor: pointer;
+}
 :root {
   --animate-delay: 0.2s !important;
 }
+  
 @font-face {
   font-family: "Apron";
   src: url(../fonts/Apron-Bold.woff);
