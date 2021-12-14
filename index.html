@@ -17,13 +17,12 @@
     <div id="mainmenu" class="menu">
         <p><img src="./src/images/logo.png" alt=""></p>
         <img id="closem" class="" src="./src/images/icons/closeNav.svg" alt="">
-        <ul>
-            <li><a href="index.html" class="menu-selected">Accueil</a></li>
-            <li><a href="./src/pages/presentation.html">Présentation</a></li>
-            <li><a href="./src/pages/participer.html">PARTICIPER</a></li>
-            <li><a href="./src/pages/reglement.html">Réglement du concours</a></li>
-            <li><a href="./src/pages/jury.html">JURY</a></li>
-            <li><a href="./src/pages/prix.html">PRIX</a></li>
+        <ul class="navigation">
+            <li class="nav-item"><a key="1" href="index.html" class="menu-selected">Accueil</a></li>
+            <li class="nav-item"><a key="2" href="./src/pages/presentation.html">Présentation</a></li>
+            <li class="nav-item"><a key="3" href="./src/pages/reglement.html">Réglement du concours</a></li>
+            <li class="nav-item"><a key="4" href="./src/pages/jury.html">JURY</a></li>
+            <li class="nav-item"><a key="5" href="./src/pages/prix.html">PRIX</a></li>
         </ul>
     </div>
     <nav class="navbar p-3 fixed-top">
@@ -48,9 +47,12 @@
             <div class="col-md-4"><img src="./src/images/icons/social.svg" alt=""></div>
         </div>
       </div>
+    <script src="./src/js/jquery-3.5.1.min.js"></script>
     <script src="./src/js/main.js"></script>
     <script src="./src/js/video-background.js"></script>
-    <script src="./src/js/jquery.MultiLanguage.min.js"></script>
+   <script>
+       function setLanguage(a) { localStorage.setItem("language", a), language = localStorage.getItem("language"), getLanguage() } function getLanguage() { null == language && setLanguage(default_lang), $.ajax({ url: "./src/locales/" + language + ".json", dataType: "json", async: !0 }).done(function (a) { $("body").attr("class", language), $.each(a, function (a, e) { "head" === a && $(document).attr("title", e.title), $(a).children().each(function () { $(this).html(e[$(this).attr("key")]) }) }) }) } var language = localStorage.getItem("language"), default_lang = "fr"; $(document).ready(function () { null != language && language !== default_lang && getLanguage(language) });
+   </script>
 </body>
 
 </html>

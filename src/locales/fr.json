@@ -1,19 +1,30 @@
 {
+    ".navigation" : {
+        "1" : "Accueil",
+        "2" : "Présentation",
+        "3" : "Réglement du concours",
+        "4" : "JURY",
+        "5" : "PRIX"
+    },
     ".presentation" : {
+        "btn" : "Comment Participer ?", 
         "partners" : "Nos Partenaires",
         "hero" : "<img class=\"quote p-2\" src=\"../images/icons/quote1.svg\" alt=\"\"> L’initiative de développement du Grand Casablanca par la créativité<img class=\"quote p-2\" src=\"../images/icons/quote2.svg\" alt=\"\">",
         "text" : "Connectant les jeunes talents au patrimoine riche et multiple de Casablanca, « ATH’ART » est une initiative portée par CasaPatrimoine et par un ensemble d’acteurs économiques, culturels et de la société civile, visant à revaloriser le Patrimoine matériel et immatériel de Casablanca, à travers la créativité et l’art. <br><br> Créée au profit du vivier large de designers, d’artistes, d’architectes de créatifs et de talents qui innovent au quotidien, l’initiative ATHART fait aujourd’hui appel à votre créativité et à votre sens d’entreprenariat pour faire du patrimoine Casablancais une source de développement durable pour tous."
     },
     ".participer-1" : {
+        "btn" : "Je participe",
         "text" : "Le Patrimoine matériel et immatériel Casablancais conserve un héritage unique, capable de porter des projets de développement socio-économique. <br><br> Inspirez-vous du Patrimoine Casablancais, et imaginez des projets innovants créateurs de richesse culturelle et économique :",
         "list" : "<p>Promotion du Patrimoine architectural Casablancais.</p> <p>Revalorisation du patrimoine Oral et des arts du spectacle <br>( Ahwach, L’Aïta, le Marsawi, Le style Ghiwan, Tagadda, Lemchaheb, poésie, contes, proverbes…)</p> <p>Réinvention du patrimoine festif et gastronomique.</p> <p>Promotion de l'artisanat traditionnel.</p>",
         "quote" : "Alors, creusez et trouvez des idées originales <br> de projets culturels et innovants, qui peuvent promouvoir <br> le patrimoine culturel casablancais."
     },
     ".participer-2" : {
+        "btn" : "Je participe",
         "text" : "Saviez-vous que les premiers plans urbains, qui ont servi pour modèles d’aménagement en Europe durant les années 50ans, ont été créés et expérimentés à Casablanca ? <br> <br> Cette ville qui témoigne de la naissance de l’urbanisme moderne, est un vrai symbole de l’innovation en Mobilité. Le zoning, le plan de déplacement urbain, les grands boulevards, l’aménagement urbain… autant d’innovations dont Casablanca a été un vrai laboratoire à ciel ouvert. <br><br> Aujourd’hui, on appelle les créateurs et les entrepreneurs à améliorer cette mobilité urbaine en proposant des projets qui réinventent les moyens de transports, le mobilier urbain et qui offrent des solutions qui facilitent le déplacement en ville pour tous les citoyens et les visiteurs.",
         "quote" : "Soyez nombreux à imaginer des projets innovants et partagez-les pour gagner le Prix ATH'ART du Projet Innovant dans la catégorie Mobilité."
     },
     ".participer-3" : {
+        "btn" : "Je participe",
         "text" : "Casablanca, une ville qui regorge de vraies potentialités naturelles, qui demeurent sous-exploitées. <br><br> Pourtant, la ville de Casablanca fait face à des enjeux environnementaux d’envergure. ATH'ART fait appel aux jeunes talents pour proposer des solutions innovantes et créatives pour sensibiliser, préserver et valoriser ce patrimoine vital pour le bien-être de tous les habitants.",
         "quote" : "Inspirez-vous de ce Patrimoine si riche, qui peut créer un impact, socio-économique pour notre ville. Proposez des projets pour mettre en valeur cette richesse naturelle et remportez le meilleur prix ATH'ART dans la catégorie environnement."
     },
@@ -55,7 +66,7 @@
         "j11" : "<img class=\"mb-3 rounded-circle\" height=\"120px\" width=\"120px\" src=\"../images/comite/adnane.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">AZIZ DADANE</span> <br> </p> <ul> <li>• Chef d’entreprise • Acteur Socio-Culturel</li> <li>• Crédibilité • Grande Culture</li> <li>• Expert en nouvelle technologies</li> </ul>",
         "j12" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/hind.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">HIND LAIDI</span> <br> </p> <ul> <li>• Fondatrice et Présidente De l’association JOUD</li> <li>• Associatif • Crédibilité</li> <li>• Experience internationale</li> </ul>",
         "j13" : "<div style=\"width: 120px; height: 120px;\" class=\"rounded-circle bg-secondary mb-3 mx-auto\"></div> <p class=\"\"> <span class=\"vert  text-uppercase\">Yassine Gamal </span> <br> </p> <ul> <li>• Membre du mouvement OTED, initiative dédiée au développement et l’innovation territoriale</li> <li>• Expert international en Developpement de Marché et en Management de l’innovation</li> </ul>",
-        "cta" : "Comment participer"
+        "cta" : "Comment participer ?"
     },
     ".prixx" : {
         "p1" : "<div class=\"col-md-5\"><h1 class=\"animate__bounceInLeft animate__animated\">1<sup>er</sup> Prix toute <br>catégorie<br> confondue</h1></div><div class=\"col-md-7 my-5\"><img class=\"w-100 animate__animated animate__bounceInRight\" src=\"../images/prix1.png\" alt=\"\"></div><div class=\"col-md-12\" style=\"text-align: end;\"><button class=\"py-2 px-5 rounded-pill align-self-end btn-2\">Je participe</button></div>",

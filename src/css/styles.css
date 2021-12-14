@@ -3,6 +3,10 @@
   display: none !important;
 }
 /* , body.ar h1, body.ar h2, body.ar h3, body.ar h4, body.ar h5, body.ar h6, body.ar button, body.ar a, body.ar li */
+#mainmenu * {
+  text-align: left !important;
+  direction: ltr !important;
+}
 body.ar *{
   text-align: right;
 }
@@ -12,7 +16,12 @@ body.ar .liste p::before {
 body.fr .liste p::before {
   position: absolute !important;
 }
-
+.jury-members li, .jury-members p {
+  text-align: center !important;
+}
+.comite li, .comite p {
+  text-align: center !important;
+}
 body.fr *{
   text-align: left;
 }
