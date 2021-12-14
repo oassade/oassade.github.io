@@ -91,6 +91,9 @@ img {
 .left-comme, .right-comme {
   width: 20px !important;
 }
+.reglement .reg,.reglement .reg * {
+  text-align: center !important;
+}
 @media screen and (max-width: 475px) {
   .navbar ul.row {
     width: max-content; width: 25%; display: flex; justify-content: end; align-items: center; margin: 0;
