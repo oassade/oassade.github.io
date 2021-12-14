@@ -6,6 +6,13 @@
 body.ar *{
   text-align: right;
 }
+body.ar .liste p::before {
+  position: relative !important;
+}
+body.fr .liste p::before {
+  position: absolute !important;
+}
+
 body.fr *{
   text-align: left;
 }
