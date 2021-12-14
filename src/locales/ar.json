@@ -3,7 +3,7 @@
         "1" : "الرئيسية",
         "2" : "تقديم",
         "3" : "قواعد المسابقة",
-        "4" : "هيئة المحلفين",
+        "4" : "لجنة التحكيم",
         "5" : "جوائز"
     },
     ".presentation" : {
@@ -35,7 +35,7 @@
         "phase-2" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase2.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\"> من  شهر XX إلى  شهر XX 2021</span> <br> سيتم إجراء الفرز الأول من قبل فريق المشروع الفني للاحتفاظ فقط بالعروض التي تفي بميثاق المبادرة المفصل في قواعد المسابقة.</p>",
         "phase-3" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase3.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">من  شهر XX إلى  شهر XX 2021</span> <br>سيتم إجراء الفرز الثاني من قبل اللجنة التوجيهية للمشروع للاحتفاظ بأجمل 100 عرض. يمكن أن يكون هذا الفرز أقل أو أكثر حسب جودة العروض.</p>",
         "phase-4" : "<img class=\"mb-3\" width=\"120px\" src=\"../images/SVG/phase4.svg\" alt=\"\"> <p class=\"text-start\"> <span class=\"border-bott\">من  شهر XX إلى  شهر XX 2021</span> <br> اختيار لجنة التحكيم النهائية لأفضل 3 إبداعات حسب الفئة وأفضل 3 أعمال في جميع الفئات (يمكن مراجعة هذا الرقم وفق جودة العروض).</p>",
-        "cta" : "<a href=\"./participer.html\" class=\"py-2 px-5 rounded-pill align-self-end btn-1\">Sélectionnez votre catégorie</a>"
+        "cta" : "<a href=\"./participer.html\" class=\"py-2 px-5 rounded-pill align-self-end btn-1\">إختر فئتك</a>"
     },
     ".jury" : {
         "title" : "لجنة التحكيم",
