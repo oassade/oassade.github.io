@@ -26,7 +26,7 @@
             <li class="nav-item"><a key="2" href="./presentation.html">Présentation</a></li>
             <li class="nav-item"><a key="3" href="./reglement.html" class="menu-selected">Réglement du concours</a></li>
             <li class="nav-item"><a key="4" href="./jury.html">JURY</a></li>
-            <li class="nav-item"><a key="5" href="./prix.html">PRIX</a></li>
+            <!-- <li class="nav-item"><a key="5" href="./prix.html">PRIX</a></li> -->
         </ul>
     </div>
     <nav class="navbar navbar-dark navbar-back p-3 fixed-top">
@@ -42,58 +42,37 @@
             </button>
         </div>
     </nav>
-    <div class="container-fluid slider-container" style="overflow-y: hidden;">
+    <div class="container slider-container" style="overflow-y: hidden;">
         <div class="carousel" data-flickity='{ "fullscreen": true }'>
             <div class="carousel-cell">
-                <div class="content p-md-5" style="padding-top: 6rem !important;">
+                <div class="content" style="display: flex; flex-direction: column; justify-content: space-evenly; padding-top: 100px;">
                     <div class="row text-white">
                         <div class="col-md-12 animate__animated animate__bounceInRight animate__delay-1s reglement">
                             <h1 dir="auto" key="titre">Comment participer ?</h1>
                             <p dir="auto" key="desc">Vous êtes créatif, designer, peintre, musiciens, entrepreneur ou même simple citoyen avec
                                 pleines d’idées en tête, partagez avec nous vos projets de développement de Patrimoine
                                 part la créativité et gagnez...<br><br>
-                                <strong>Avant de poster vos idées, veuillez lire et télécharger notre <a href="#">règlement du concours</a>
+                                <strong>Avant de poster vos idées, veuillez lire et télécharger notre <a href="../images/reglement-et-charte-initiative-Ath'Art.pdf" download style="font-size: 20px; color: #26A7A1;">règlement du concours</a>
                                 </strong>
                             </p>
                         </div>
                     </div>
                     <div class="row text-white reglement">
-                        <div class="col-md-3 reg animate__animated animate__bounceInRight" key="phase-1">
-                            <img class="mb-3" width="120px" src="../images/SVG/phase1.svg" alt="">
-                            <p class="text-start">
-                                <span class="border-bott">du XX Mois au XX Mois 2020</span>
-                                <br>
-                                Envoyez vos propositions de Projets créatifs sur la plateforme de participation :<a
-                                    href="#"> www.athart.ma/candidature</a>
-                            </p>
+                        <div class="col-md animate__animated animate__bounceInRight" key="phase-1">
+                            <img src="../images/phase1.svg" width="100%" alt="phase-1">
+                            <a href="https://athart.ma/candidature"  style="font-size: 16px; color: #26A7A1; font-weight: bold; padding: 13px;">Candidature</a>
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-2">
-                            <img class="mb-3" width="120px" src="../images/SVG/phase2.svg" alt="">
-                            <p class="text-start">
-                                <span class="border-bott">du XX Mois au XX Mois 2020</span>
-                                <br>
-                                Un 1er tri sera fait par l’équipe projet technique pour ne retenir que les propositions
-                                répondant à la charte de l’initiative détaillée dans le règlement du concours.
-                            </p>
+                        <div class="col-md  animate__animated animate__bounceInRight" key="phase-2">
+                            <img src="../images/phase2.svg" width="100%" alt="phase-2">
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-3">
-                            <img class="mb-3" width="120px" src="../images/SVG/phase3.svg" alt="">
-                            <p class="text-start">
-                                <span class="border-bott">du XX Mois au XX Mois 2020</span>
-                                <br>
-                                Un 2ème tri sera fait par le comité de pilotage du projet pour retenir les 100 plus
-                                belles propositions. Cela peut être moins ou plus selon la qualité des rendus.
-                            </p>
+                        <div class="col-md  animate__animated animate__bounceInRight" key="phase-3">
+                            <img src="../images/phase3.svg" width="100%" alt="phase-3">
                         </div>
-                        <div class="col-md-3 reg  animate__animated animate__bounceInRight" key="phase-4">
-                            <img class="mb-3" width="120px" src="../images/SVG/phase4.svg" alt="">
-                            <p class="text-start">
-                                <span class="border-bott">du XX Mois au XX Mois 2020</span>
-                                <br>
-                                La sélection par un jury final des 3 meilleures créations par catégorie et des 3
-                                meilleures œuvres toutes catégories confondues (ce chiffre peut être revue en fonction
-                                de la qualité des rendus).
-                            </p>
+                        <div class="col-md  animate__animated animate__bounceInRight" key="phase-4">
+                            <img src="../images/phase4.svg" width="100%" alt="phase-4">
+                        </div>
+                        <div class="col-md  animate__animated animate__bounceInRight" key="phase-5">
+                            <img src="../images/phase5.svg" width="100%" alt="phase-4">
                         </div>
                     </div>
                     <div class="row reglement">
