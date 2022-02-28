@@ -1,5 +1,15 @@
 {
+    ".nav-item" : {
+        "indic" : "fr",
+        "1" : "Accueil",
+        "2" : "Présentation",
+        "3" : "Réglement du concours",
+        "4" : "JURY",
+        "5" : "PRIX"
+    },
     ".navigation" : {
+
+        "indic" : "fr",
         "1" : "Accueil",
         "2" : "Présentation",
         "3" : "Réglement du concours",
@@ -72,6 +82,7 @@
         "j11" : "<img class=\"mb-3 rounded-circle\" height=\"120px\" width=\"120px\" src=\"../images/comite/adnane.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">M. AZIZ DADANE</span> <br> </p> <ul> <li>• Président du Directoire de S2M et Président de l'Association Nagham</li> </ul>",
         "j12" : "<img class=\"mb-3 rounded-circle\" width=\"120px\" src=\"../images/comite/hind.png\" alt=\"\"> <p class=\"\"> <span class=\"vert\">Mme. HIND LAIDI</span> <br> </p> <ul> <li>• Présidente de l'Association Jood</li> </ul>",
         "j13" : "<div style=\"width: 120px; height: 120px;\" class=\"rounded-circle bg-secondary mb-3 mx-auto\"></div> <p class=\"\"> <span class=\"vert  text-uppercase\">M. Yassine Gamal </span> <br> </p> <ul> <li>• Membre du mouvement OTED, initiative dédiée au développement et l'innovation territoriale</li> <li>• Expert international en Developpement de Marché et en Management de l'innovation</li> </ul>",
+        "j14" : "<img class='mb-3 rounded-circle' width='120px' src='../images/comite/rabha.png' alt=''><p class=''> <span class='vert'>Mme. RABHA ZAHID</span> <br> </p> <ul> <li>• Chef de la Division culture au sein du Conseil de la ville de Casablanca </li> <li>• Ex Inspectrice régionale des Monuments historiques et sites de Casablanca.</li> </ul>",
         "cta" : "Comment participer ?"
     },
     ".prixx" : {

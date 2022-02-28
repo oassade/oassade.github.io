@@ -23,6 +23,8 @@
         <p><img src="../images/logo.png" alt=""></p>
         <img id="closem" class="" src="../images/icons/closeNav.svg" alt="">
         <ul class="navigation">
+
+            <li class="nav-item languageindic" ><a key="indic">fr</a></li>
             <li class="nav-item"><a key="1" href="/index.html">Accueil</a></li>
             <li class="nav-item"><a key="2" href="./presentation.html" class="menu-selected">Présentation</a></li>
             <li class="nav-item"><a key="3" href="./reglement.html">Réglement du concours</a></li>
@@ -34,9 +36,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#"></a>
             <ul class="row">
-                <li class="text-white mx-1" onclick="setLanguage('fr')">FR</li>
-                <li class="text-white mx-1">/</li>
-                <li class="text-white mx-1" onclick="setLanguage('ar')">AR</li>
+                <li class="text-white mx-1" id="fr">FR</li>
             </ul>
             <button class="navbar-toggler" type="button" aria-controls="navbarSupportedContent">
                 <img src="../images/icons/openNav.svg" alt="" id="openm">
@@ -49,8 +49,32 @@
                 <div class="content p-md-5">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-md-6 d-flex flex-column justify-content-between">
-                                <img class="animate__animated animate__bounceInDown animate__slow" src="../images/presentation.svg" width="90%" alt="">
+                            <div class="col-md-6 d-flex flex-column presentation">
+                                <div class="logos-wrapper">
+                                    <img src="../logospartenaires/PNG/logowecasa.png" alt="" srcset="">
+                                    <img class="side-borders" src="../logospartenaires/PNG/logocasa.png" alt="" srcset="">
+                                    <img src="../logospartenaires/PNG/logowilaya.png" alt="" srcset="">
+                                </div>
+
+                                <br>
+                                <h3 class="margin-top-50 arab-font"  dir="auto" key="partners">Nos Partenaires médias :</h3>
+                                <div class="logos-wrapper logos-wrapper-small ">
+                                    <div class="row flex-btwn">
+
+                                        <img src="../logospartenaires/PNG/partenaire1.png" alt="" srcset="">
+                                        <img  src="../logospartenaires/PNG/partenaire2.png" alt="" srcset="">
+                                        <img src="../logospartenaires/PNG/partenaire3.png" alt="" srcset="">
+                                        <img src="../logospartenaires/PNG/partenaire4.png" alt="" srcset="">
+                                    
+                                    </div>
+                                    <div class="row flex-btwn">
+
+                                        <img src="../logospartenaires/PNG/partenaire5.png" alt="" srcset="">
+                                        <img src="../logospartenaires/PNG/partenaire6.png" alt="" srcset="">
+                                        <img src="../logospartenaires/PNG/partenaire7.png" alt="" srcset="">
+                                        <img src="../logospartenaires/PNG/partenaire8.png" alt="" srcset="">
+                                    </div>
+                                </div>
                                 <!-- <div class="row desk mt-5 animate__animated animate__fadeIn animate__delay-1s">
                                     <div class="col-md-12 presentation">
                                         <h4 class="text-white" dir="auto" key="partners">Nos Partenaires</h4>
@@ -67,15 +91,15 @@
                             </div>
                             <div class="col-md-6 d-flex presentation pres flex-column border-left animate__animated animate__fadeIn animate__delay-2s">
                                 <img src="../images/logo-big.png" width="50%" alt=""><br>
-                                <h3 class="text-white" dir="auto" key="hero"><img class="quote p-2" src="../images/icons/quote1.svg" alt="">
+                                <h3 class="text-white arab-font" dir="auto" key="hero"><img class="quote p-2" src="../images/icons/quote1.svg" alt="">
                                     L’initiative de développement du Grand Casablanca par la créativité<img class="quote p-2"
                                         src="../images/icons/quote2.svg" alt=""></h3><br>
-                                <p class="text-white" dir="auto" key="text">
+                                <p class="text-white arab-font" dir="auto" key="text">
                                     Connectant les jeunes talents au patrimoine riche et multiple de Casablanca, « ATH’ART » est une initiative portée par CasaPatrimoine et par un ensemble d’acteurs économiques, culturels et de la société civile, visant à revaloriser le Patrimoine matériel et immatériel de Casablanca, à travers la créativité et l’art. <br><br> Créée au profit du vivier large de designers, d’artistes, d’architectes de créatifs et de talents qui innovent au quotidien, l’initiative ATHART fait aujourd’hui appel à votre créativité et à votre sens d’entreprenariat pour faire du patrimoine Casablancais une source de développement durable pour tous.
                                 </p>
                                 <div class="row mob mt-5 animate__animated animate__fadeIn animate__delay-1s">
                                     <div class="col-md-12">
-                                        <h4 class="text-white">Nos Partenaires</h4>
+                                        <h4 class="text-white arab-font">Nos Partenaires</h4>
                                     </div>
                                     <div class="col-3 col-sm-4"><img src="../images/partenaire.png" class="w-100" alt="">
                                     </div>
@@ -86,7 +110,7 @@
                                     <div class="col-3 col-sm-4"><img src="../images/partenaire.png" class="w-100" alt="">
                                     </div>
                                 </div>
-                                <a href="./reglement.html" class="padd py-2 px-5 rounded-pill align-self-end btn-1" key="btn">Comment participer ?</a>
+                                <a href="./reglement.html" class="padd py-2 px-5 rounded-pill align-self-end btn-1 arab-font" key="btn">Comment participer ?</a>
                             </div>
                         </div>
                     </div>
@@ -348,7 +372,7 @@
                                 <p class="animate__animated animate__fadeIn animate__slower p1 participer-1">
                                     <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                             alt="" srcset=""></span>
-                                    <span dir="auto" key="quote" class="p1">
+                                    <span dir="auto" key="quote" class="p1 arab-font">
                                         Alors, creusez et trouvez des idées originales <br>
                                         de projets culturels et innovants, qui peuvent promouvoir <br>
                                         le patrimoine culturel casablancais.
@@ -362,24 +386,24 @@
                             <img src="../images/logos/SVG/1.svg" style="width: 400px;"
                                 class="animate__animated animate__fadeInDownBig" alt="">
                             <br>
-                            <p class="animate__animated animate__fadeIn animate__slower" dir="auto" key="text">
+                            <p class="animate__animated animate__fadeIn animate__slower arab-font" dir="auto" key="text">
                                 Le Patrimoine matériel et immatériel Casablancais conserve un héritage unique, capable
                                 de porter des projets de développement socio-économique.
                                 <br><br>
                                 Inspirez-vous du Patrimoine Casablancais, et imaginez des projets innovants créateurs de
                                 richesse culturelle et économique :
                             </p>
-                            <div class="animate__animated animate__fadeIn animate__slower liste" dir="auto" key="list">
-                                <p>Promotion du Patrimoine architectural Casablancais.</p>
-                                <p>Revalorisation du patrimoine Oral et des arts du spectacle <br>( Ahwach, L’Aïta, le
+                            <div class="animate__animated animate__fadeIn animate__slower liste " dir="auto" key="list">
+                                <p class="arab-font">Promotion du Patrimoine architectural Casablancais.</p>
+                                <p class="arab-font">Revalorisation du patrimoine Oral et des arts du spectacle <br>( Ahwach, L’Aïta, le
                                     Marsawi, Le style Ghiwan, Tagadda, Lemchaheb, poésie, contes, proverbes…)</p>
-                                <p>Réinvention du patrimoine festif et gastronomique.</p>
-                                <p>Promotion de l'artisanat traditionnel.</p>
+                                <p class="arab-font">Réinvention du patrimoine festif et gastronomique.</p>
+                                <p class="arab-font">Promotion de l'artisanat traditionnel.</p>
                             </div>
                             <p id="p1-mob" class="animate__animated animate__fadeIn animate__slower participer-1">
                                 <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                         alt="" srcset=""></span>
-                                <span dir="auto" key="quote">
+                                <span dir="auto" key="quote" class="arab-font">
                                     Alors, creusez et trouvez des idées originales <br>
                                     de projets culturels et innovants, qui peuvent promouvoir <br>
                                     le patrimoine culturel casablancais.
@@ -388,7 +412,7 @@
                                         alt="" srcset=""></span>
                             </p>
                             <button
-                                class="py-2 px-5 rounded-pill align-self-end btn-p1" key="btn">Je participe</button>
+                                class="py-2 px-5 rounded-pill align-self-end btn-p1 arab-font" key="btn">Je participe</button>
                         </div>
                     </div>
                 </div>
@@ -407,7 +431,7 @@
                                 <p class="p2 participer-2">
                                     <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                             alt="" srcset=""></span>
-                                    <span dir="auto" key="quote" class="p2">
+                                    <span dir="auto" key="quote" class="p2 arab-font">
                                         Soyez nombreux à imaginer des projets
                                         innovants et partagez-les pour gagner
                                         le Prix ATH'ART du Projet Innovant
@@ -421,7 +445,7 @@
                         <div class="col-md-6 col-lg-6 col-12 right-content participer-2">
                             <img src="../images/logos/SVG/2.svg" style="width: 400px;" alt="">
                             <br>
-                            <p dir="auto" key="text">
+                            <p dir="auto" key="text"  class="arab-font">
                                 Saviez-vous que les premiers plans urbains, qui ont servi pour modèles d’aménagement en
                                 Europe durant les années 50ans, ont été créés et expérimentés à Casablanca ? <br> <br>
                                 Cette ville qui témoigne de la naissance de l’urbanisme moderne, est un vrai symbole de
@@ -436,7 +460,7 @@
                             <p id="p2-mob" class="participer-2">
                                 <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                         alt="" srcset=""></span>
-                                <span dir="auto" key="quote">
+                                <span dir="auto" key="quote"  class="arab-font">
                                     Soyez nombreux à imaginer des projets
                                     innovants et partagez-les pour gagner
                                     le Prix ATH'ART du Projet Innovant
@@ -446,7 +470,7 @@
                                         alt="" srcset=""></span>
                             </p>
                             <button
-                                class="py-2 px-5 rounded-pill align-self-end btn-p2" key="btn">Je participe</button>
+                                class="py-2 px-5 rounded-pill align-self-end btn-p2 arab-font" key="btn">Je participe</button>
                         </div>
                     </div>
                 </div>
@@ -465,7 +489,7 @@
                                 <p class="p3 participer-3">
                                     <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                             alt="" srcset=""></span>
-                                    <span dir="auto" key="quote" class="p3">
+                                    <span dir="auto" key="quote" class="p3 arab-font" >
                                         Inspirez-vous de ce Patrimoine si riche,
                                         qui peut créer un impact, socio-économique
                                         pour notre ville. Proposez des projets pour mettre en valeur
@@ -480,7 +504,7 @@
                         <div class="col-md-6 col-lg-6 col-12 right-content participer-3">
                             <img src="../images/logos/SVG/3.svg" style="width: 400px;" alt="">
                             <br>
-                            <p dir="auto" key="text">
+                            <p dir="auto" key="text" class="arab-font">
                                 Casablanca, une ville qui regorge de vraies potentialités naturelles, qui demeurent sous-exploitées.
                                 <br><br>
                                 Pourtant, la ville de Casablanca fait face à des enjeux environnementaux d’envergure. ATH'ART fait appel aux jeunes talents pour proposer des solutions innovantes et créatives pour sensibiliser, préserver et valoriser ce patrimoine vital pour le bien-être de tous les habitants.
@@ -488,7 +512,7 @@
                             <p id="p3-mob" class="participer-3">
                                 <span><img class="left-comma" width="20px" src="../images/icons/SVG/comma.svg"
                                         alt="" srcset=""></span>
-                                <span dir="auto" key="quote">
+                                <span dir="auto" key="quote"  class="arab-font">
                                     Inspirez-vous de ce Patrimoine si riche,
                                     qui peut créer un impact, socio-économique
                                     pour notre ville. Proposez des projets pour mettre en valeur
@@ -499,7 +523,7 @@
                                         alt="" srcset=""></span>
                             </p>
                             <button
-                                class="py-2 px-5 rounded-pill align-self-end btn-p3" key="btn">Je participe</button>
+                                class="py-2 px-5 rounded-pill align-self-end btn-p3 arab-font" key="btn">Je participe</button>
                         </div>
                     </div>
                 </div>
