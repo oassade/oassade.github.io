@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
 
+    setLanguage('fr'); 
     var arab = $("#languageindic").html == "FR" ? true : false ;
     // alert(arab)
     if(arab)
